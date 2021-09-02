@@ -4,7 +4,7 @@ Identification of plants through plant leaves on the basis of their shape, color
 
 ## Overview
 
-Plant Leaf Identification is a system which is able to classify **32 different species of plants** on the basis of their leaves using digital image processing techniques. The images are first preprocessed and then their shape, color and texture based features are extracted from the processed image.
+Plant Leaf Identification is a system which is able to classify **33 different species of plants** on the basis of their leaves using digital image processing techniques. The images are first preprocessed and then their shape, color and texture based features are extracted from the processed image.
 
 A dataset was created using the extracted features to train and test the model. The model used was **Support Vector Machine Classifier** and was able to classify with **90.05% accuracy**. 
 
@@ -50,7 +50,7 @@ The following steps were followed for pre-processing the image:
 
 ### 2. Feature extraction
 
-Variou types of leaf features were extracted from the pre-processed image which are listed as follows:
+Various types of leaf features were extracted from the pre-processed image which are listed as follows:
 
   1. *Shape based features* : physiological length,physological width, area, perimeter, aspect ratio, rectangularity, circularity
   2. *Color based features* : mean and standard deviations of R,G and B channels
